@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.CartActivity">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/CartToolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <LinearLayout
+        android:id="@+id/cartLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@id/CartToolbar"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ordering From :"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/cartHotelname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hii"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_below="@id/cartLinearLayout"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btnPlaceorder"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="place order"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+</RelativeLayout>

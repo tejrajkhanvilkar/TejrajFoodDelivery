@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.fragment.MyProfileFragment"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imgProfileperson"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_person"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/txtProfilename"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:layout_below="@id/imgProfileperson"
+        android:layout_margin="10dp"
+        android:text="name"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/txtProfilephnno"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:layout_below="@id/txtProfilename"
+        android:layout_margin="10dp"
+        android:text="phnno"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/txtProfileemail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:layout_below="@id/txtProfilephnno"
+        android:layout_margin="10dp"
+        android:text="email"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/txtProfileaddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:layout_below="@id/txtProfileemail"
+        android:layout_margin="10dp"
+        android:text="address"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+
+
+</RelativeLayout>

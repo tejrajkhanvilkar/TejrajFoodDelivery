@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/headerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary" >
+
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_person2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/header_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tejraj khanvilkar"
+            android:layout_below="@id/header_image"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/header_userphnno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91 8007777482"
+            android:layout_below="@id/header_username"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

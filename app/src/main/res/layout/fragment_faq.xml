@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="720dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.fragment.FaqFragment"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtfaqtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequently asked questions"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+
+    <androidx.cardview.widget.CardView
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activity.fragment.FaqFragment"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="2dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1 ) What is the duration of this training ?"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ans : The duration of training is of 6 weeks"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activity.fragment.FaqFragment"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="2dp"
+        android:padding="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q2) What is the price of this training ?"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ans : The price of this  training is Rs 999"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/txtfaqtxt"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activity.fragment.FaqFragment"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="2dp"
+        android:padding="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q3) What will be the timings of the training ?"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ans :  As this is a purely online training program, you can choose to learn at any time of the day. We will
+recommend a pace to be followed through dat the program, but the actual timings and learning hours can be decided by students according to their convenience."
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/txtfaqtxt"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activity.fragment.FaqFragment"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="2dp"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q4) How will the training be delivered?"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ans : You will be taught using pre recorded videos and text tutorials. The training has quizzes.
+assignments, and tests to help you learn better. At the end of the training, you will attempt a project to get hands-on practice of what you learn during your training."
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/txtfaqtxt"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:context=".activity.fragment.FaqFragment"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="2dp"
+        android:padding="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q5) How much time should I spend everyday?"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ans : We recommend spending 10-12 hours per week. However, the actual learning hours can be decided by you as per your convenience."
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>

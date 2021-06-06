@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardCornerRadius="2dp"
+    android:layout_margin="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+    <LinearLayout
+        android:id="@+id/numberlayout"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/dishnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/dishname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dish Name"
+            android:layout_toRightOf="@+id/numberlayout"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="13dp"/>
+
+        <TextView
+            android:id="@+id/dishprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs 299"
+            android:layout_toRightOf="@+id/numberlayout"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"/>
+
+        <Button
+            android:id="@+id/btnadddish"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="add"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

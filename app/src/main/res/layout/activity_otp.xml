@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.OtpActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/otptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the received OTP below"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/otpEnterotp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:layout_below="@id/otptxt"
+        android:hint="OTP (4 characters)"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_otp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/otpEnterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:layout_below="@id/otpEnterotp"
+        android:hint="Enter new password (min 8 characters)"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/otpEnterpasswordconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ffffff"
+        android:layout_below="@id/otpEnterpassword"
+        android:hint="Confirm new password"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"/>
+
+
+    <Button
+        android:id="@+id/otpSubmitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@id/otpEnterpasswordconfirm"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="submit"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>

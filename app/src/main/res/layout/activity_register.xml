@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.RegisterActivity"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/rregister_name"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ffffff"
+        android:hint="Name (Min 3 characters)"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/rregister_email"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ffffff"
+        android:hint="Email Address"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/rregister_name"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/rregister_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ffffff"
+        android:hint="Mobile Number (10 digits)"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_mobile"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/rregister_email"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/rregister_address"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ffffff"
+        android:hint="Delivery Address"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_address"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/rregister_mobile"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/rregister_password"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ffffff"
+        android:hint="Password (Min 4 characters)"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/rregister_address"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/rregister_passwordconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ffffff"
+        android:hint="Confirm Password"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/rregister_password"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/register_registerbtn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="register"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/rregister_passwordconfirm"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+
+
+
+</RelativeLayout>
