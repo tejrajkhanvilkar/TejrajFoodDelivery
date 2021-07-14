@@ -7,7 +7,7 @@ An android food delivery app similar to Swiggy/Zomato
 
 1. A **‘Welcome page’** which displays the logo and/or name of the app. Choose any name of your choice.
 2. A **‘Login Page’** which asks for users’ mobile number and password.
-3. A ‘Registration Page’ which enables users to sign up for the app.
+3. A #####‘Registration Page’ which enables users to sign up for the app.
 4. A ‘Forgot Password Page’ which enables users to reset their password.
 5. A ‘Navigation Drawer’ with the app logo and user name on top and menu options 
 6. A ‘My Profile’ page (where the user’s name, phone number, and address is displayed).
